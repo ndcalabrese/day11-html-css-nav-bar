@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    flex-flow: nowrap row;
+    font-family: serif;
+}
+#CFH-logo {
+    background-color: purple;
+    align-self: center;
+    color: white;
+    font-size: 40px;
+    padding: 20px 10px 20px 10px;
+}
+.button {
+    justify-items: space-evenly;
+    background-color: black;
+    color: white;
+    flex-flow: wrap;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 42px 30px 16px 30px;
+}
+#search-bar {
+    display: flex;
+    background-color: black;
+    padding: 37px 16px 16px 16px; 
+}
+#search-icon {
+    width: 15px;
+    height: 15px;
+    padding: 2px 2px 5px 5px;
+}
+#user-controls {
+    display: flex;
+}
+.uc-button {
+    padding: 20px;
+}
+#cart {
+    width: 25px;
+    height: 15px;
+}
